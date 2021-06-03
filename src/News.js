@@ -5,9 +5,7 @@ function News(props) {
     return (
         <div >
             <h2 className='mt-5'>Latest Market News</h2>
-            <ReactPlayer class= "reactPlayer" url='https://www.youtube.com/watch?v=KbupDZewx5U' />
-            {/*<Card.Img src='https://image.cnbcfm.com/api/v1/image/106449894-833markcubanfull.jpg?v=1584536503' alt='some news photo' />*/}
-            {/*<MarketNews />*/}
+            <ReactPlayer className= "reactPlayer" url='https://www.youtube.com/watch?v=KbupDZewx5U' />
             <h5 className="mt-2">Peter Lynch: Secret To INVESTING in OVERPRICED MARKETS</h5>
             <h6 id='vidDesc'> Description:</h6>
             <p id='vidText'>Peter Lynch is one of the most successful and well-known investors of all time.
