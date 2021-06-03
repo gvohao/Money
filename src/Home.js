@@ -2,7 +2,6 @@ import React from 'react';
 import {Col, Row} from "react-bootstrap";
 import Sidebar from "./Sidebar"
 import HomeCharts from "./HomeCharts";
-import Brokerages from "./brokerages";
 
 function Home({ spy, qqq, btcusd, fxi, ashr }) {
 
@@ -22,11 +21,6 @@ function Home({ spy, qqq, btcusd, fxi, ashr }) {
             <Col md={4}>
                 <Sidebar />
             </Col>
-
-            {/*<Col className="" md={4}>*/}
-            {/*    <Brokerages />*/}
-            {/*</Col>*/}
-
         </Row>
 
     );

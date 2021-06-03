@@ -24,20 +24,13 @@ function Navigation({ id }) {
     function handleSubmit(e) {
         if (e.target.value !== {id})
             e.preventDefault();
-        // console.log(e.target.value);}
     }
-let pitbull = 'sk for money, get advice. /n Ask for advice, get money twice.'
+
     return (
         <div className="">
             <Navbar  bg="dark" variant="dark">
                 <Nav className="nav-item mr-auto text-white">
                     <NavLink  className="nav-link text-white" to="/">Home
-                        {/*<img  id='home' src="./img/pitbull.png"/>*/}
-                       {/* <p>Ask for money, get advice. </p>*/}
-                       {/*   <p> Ask for advice, get money twice.</p>*/}
-                       {/*</div>*/}
-                       {/* /!*Home*!/m/711/2591711-middle.png"/>
-                       {/*<div id='pitbull'>*/}
                     </NavLink>
                     <NavLink className="nav-link text-white" to="/Chart">Markets</NavLink>
                     <NavLink className="nav-link text-white" to="/Brokerages">Brokerages</NavLink>
@@ -57,7 +50,8 @@ let pitbull = 'sk for money, get advice. /n Ask for advice, get money twice.'
                         <NavDropdown.Item href="#action/3.6">Others...</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
-                <Form className="d-flex justify-content-end"  inline> // how to move
+
+                <Form inline>
                     {/*<Button variant="outline-info">Search</Button>*/}
                 </Form>
             </Navbar>

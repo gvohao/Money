@@ -9,12 +9,6 @@ width: 400px;
 
 }
 
-#pitbull {
-  font-size: 10px;
-  padding: 0;
-
-}
-
 .header {
   background-color: whitesmoke;
 }
@@ -56,9 +50,107 @@ width: 400px;
 .endowUs {
   background-color:#d7ffd1;
   padding-bottom: 7px;
+  /*font-weight: bold;*/
   /*font-style: bold;*/
 }
-.endowusText {
-color: #b9f9c8;
+.endowusTextHead {
+color: #77907a;
+
+/*font-weight: bold;*/
 }
 
+
+.endowusTextBody {
+  color: #77907a;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.cpf {
+  font-size: x-large;
+  color: chartreuse;
+  font-weight: bold;
+}
+.and {
+  font-size: x-large;
+  /*font-weight: bold ;*/
+}
+
+.fortyP {
+  font-size: x-large;
+  color: #77907a;
+}
+.tiered {
+  font-variant: all-petite-caps;
+  font-size: small;
+  text-underline-style: dash;
+  text-decoration: underline;
+}
+.transparent {
+  color: transparent;
+  margin-top: 0;
+}
+.cashSmart {
+  margin-bottom: 0;
+  font-size: 21px;
+  color: chartreuse;
+  font-weight: bold;
+}
+.brokerages {
+  background-color: #ebf9eb;
+}
+.pit{
+}
+.pitbull {
+  width: 80px;
+}
+.pitbullHover:hover {
+  animation: ease-in-out;
+}
+
+.advice {
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+  margin-top: 9px;
+  color: darkslategrey;
+  position: relative;
+  left: 20px;
+}
+
+.brokerageCard{
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+
+.cardTitle {
+  background-color:#f5f6da;
+  margin-bottom: 0px;
+  color: black;
+}
+.cardText {
+  background-color: #fdfff2;
+  margin-top: 0px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: none;
+}
+.tiger{
+  max-width: 50%;
+  position: relative;
+  left: 108px;
+  background-color: red;
+  margin: 60px 0px;
+}
+
+.ibkr {
+  margin: 60px 0px;
+}
+
+.poems{
+  margin: 140px 0px;
+}

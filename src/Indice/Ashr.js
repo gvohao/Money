@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Card, CardDeck, NavLink, Col, Button, Row} from "react-bootstrap";
+import {Card, CardDeck,Col, Button, Row} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import {CanvasJSChart} from "canvasjs-react-charts";
 import {getData} from "../lib/func";
@@ -13,7 +13,7 @@ function Ashr({ ashr }) {
                 console.log(data)
                 setStockData(data)
             })
-    }, []);
+    }, [ashr]);
 
     return (
 

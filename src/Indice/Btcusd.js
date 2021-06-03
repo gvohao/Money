@@ -13,7 +13,7 @@ function Btcusd({ btcusd }) {
                 console.log(data)
                 setStockData(data)
             })
-    }, []);
+    }, [btcusd]);
     console.log(btcusd)
 
     return (

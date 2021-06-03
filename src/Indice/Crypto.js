@@ -8,7 +8,7 @@ function Crypto({ btcusd }) {
             <Row>
                 <Col>
                     <h3 className="text-center header mt-3 mb-0">Cryptocurrency
-                        <img className="BTCflag" src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/coin_1fa99.png'/></h3>
+                        <img className="BTCflag" src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/coin_1fa99.png' alt="BTC"/></h3>
                 </Col>
             </Row>
             <Row >

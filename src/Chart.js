@@ -21,7 +21,7 @@ const Chart = () => {
         <div >
             <Card className='mt-5 ml-5' style={{ width: '96%' }}>
                 <Card.Title className='px-3 mt-2'>{ id.toUpperCase() } </Card.Title>
-                <CanvasJSChart style ={{height: 1000}}
+                <CanvasJSChart
                     options = { {
                         axisY:{
                             minimum: Math.min(...stockData.map(data => data.low)) /1.1, //max empty space below lowest data point

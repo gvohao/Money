@@ -9,7 +9,7 @@ function American({spy, qqq}) {
         <Row>
             <Col>
                 <h3 className="text-center header mb-0">United States
-                <img className="USflag" src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/flag-united-states_1f1fa-1f1f8.png'/></h3>
+                <img className="USflag" src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/flag-united-states_1f1fa-1f1f8.png' alt='USA Flag'/></h3>
             </Col>
         </Row>
     <Row >

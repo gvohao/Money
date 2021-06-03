@@ -13,10 +13,9 @@ export const getData = async (ticker) => {
 
 
 
-export function formatStockData(stockData) { // turn res.data['Time Series (Daily)] data from string to number
-    // console.log(Object.entries(stockData))
+export function formatStockData(stockData) {
     return Object.entries(stockData).map(entries => {
-        const [date, priceData] = entries; //WHAT DOES THIS MEAN???
+        const [date, priceData] = entries;
         return {
             date,
             open: Number(priceData['1. open']),

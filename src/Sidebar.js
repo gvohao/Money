@@ -1,15 +1,13 @@
 import React from 'react';
-import {Card} from "react-bootstrap";
-import ReactPlayer from "react-player";
 import News from "./News";
-import Brokerages from "./brokerages";
+import EndowTroll from "./endowTroll";
 
 function Sidebar(props) {
 
     return (
         <>
         <News />
-        <Brokerages/>
+        <EndowTroll />
         </>
     );
 }

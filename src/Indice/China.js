@@ -9,7 +9,7 @@ function China({ashr, fxi }) {
             <Row>
                 <Col>
                     <h3 className="text-center header mt-3 mb-0">China
-                        <img className="CNflag" src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/flag-china_1f1e8-1f1f3.png'/></h3>
+                        <img className="CNflag" src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/flag-china_1f1e8-1f1f3.png' alt="Chinese Flag"/></h3>
                 </Col>
             </Row>
             <Row >
