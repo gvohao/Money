@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+.reactPlayer {
+  max-width: 100%;
+  margin-top: 19px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#home {
+width: 400px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#pitbull {
+  font-size: 10px;
+  padding: 0;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header {
+  background-color: whitesmoke;
 }
 
-.App-link {
-  color: #61dafb;
+.USflag {
+  width: 50px;
+  margin-left: 10px;
+}
+.BTCflag {
+  width: 55px;
+  margin-left: 10px;
+  padding:5px;
+}
+.CNflag {
+  width: 50px;
+  margin-left: 10px;
+}
+#vidDesc {
+  margin-bottom: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#vidText {
+  margin: 3px;
+  margin-top: 0;
+  background-color: whitesmoke;
+  padding: 10px;
 }
+
+#quote {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  color: darkgreen;
+}
+
+.brokerage {
+  background-color: #b9f9c8;
+}
+.endowUs {
+  background-color:#d7ffd1;
+  padding-bottom: 7px;
+  /*font-style: bold;*/
+}
+.endowusText {
+color: #b9f9c8;
+}
+
