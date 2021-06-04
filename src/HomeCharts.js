@@ -21,10 +21,7 @@ function HomeCharts({ spy, qqq, btcusd, fxi, ashr }) {
                 <Crypto
                     btcusd={btcusd}
                />
-                <div>
-                <footer id="quote">Ask for money, get advice. Ask for advice, get money twice.<img src="./img/pitbull.png" alt='Mr. Worldwide'/></footer>
 
-                </div>
             </Row>
     );
 }
