@@ -1,7 +1,11 @@
 # MunnyApp
 
 
-MunnyApp was an attempt of creating stock chart app that contains elements of personal finance educational methodology. The app allows users to return charts traded in the american market through the search bar and provides charts of index ETFs on the homepage for easy viewing. On its side bar it is intended to return the latest market news but can be repurposed to play curated financial education resources. The is space on the side bar for advertisements or other content for easy access.
+MunnyApp was an attempt of creating stock chart app that contains elements of personal finance educational methodology. 
+
+The application allow users to search charts traded in the american market by entering ticker symbols in the search bar while providing charts of major indexes on the landing page for easy references. On its side bar, I have intended for it to return the latest market news while keeping the option of it being repurposed to play curated financial education resources. The use of the sidebar to as an advertisement space is also demonstrated with a banner that redirects users when clicked on.
+
+The application also feature the various brokerages that is available to Singaporeans should they be interested in embarking on their financial/ investment journey. 
 
 Features:
 Search and return charts using ticker symbols.
